@@ -32,6 +32,8 @@ modules:
         sha256: 59bfc6747060dd15c43c1e9afffdb708c15e3c2a7c36855b83952f33ba451d85
       - type: patch
         path: speedcrunch-0.12-appdata-update.patch
+      - type: patch
+        path: speedcrunch-0.12-desktop-update.patch
     post-install:
       - icon_in="../gfx/speedcrunch.svg";
         icon_out="speedcrunch.png";
